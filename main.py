@@ -5,5 +5,13 @@ names = names_string.split(", ")
 
 #Write your code below this line 👇
 
+import random
+
+randomPlace = random.randint(0, len(names)-1)
+
+
+
+print(f"{names[randomPlace]} is going to buy the meal today!")
+
 
 
